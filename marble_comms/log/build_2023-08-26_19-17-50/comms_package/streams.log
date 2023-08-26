@@ -1,0 +1,17 @@
+[0.860s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package/build --no-deps install_data
+[1.225s] running develop
+[1.446s] running egg_info
+[1.446s] writing comms_package.egg-info/PKG-INFO
+[1.447s] writing dependency_links to comms_package.egg-info/dependency_links.txt
+[1.447s] writing entry points to comms_package.egg-info/entry_points.txt
+[1.447s] writing requirements to comms_package.egg-info/requires.txt
+[1.447s] writing top-level names to comms_package.egg-info/top_level.txt
+[1.449s] reading manifest file 'comms_package.egg-info/SOURCES.txt'
+[1.450s] writing manifest file 'comms_package.egg-info/SOURCES.txt'
+[1.451s] running build_ext
+[1.451s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package/lib/python3.10/site-packages/comms-package.egg-link (link to .)
+[1.452s] Installing comms_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package/lib/comms_package
+[1.453s] 
+[1.453s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package
+[1.453s] running install_data
+[1.490s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/comms_package/build --no-deps install_data

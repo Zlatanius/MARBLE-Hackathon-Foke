@@ -1,0 +1,35 @@
+[0.824s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/comms_package': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/comms_package build --build-base /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build install --record /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/install.log --single-version-externally-managed
+[1.146s] running egg_info
+[1.146s] creating ../build/comms_package/comms_package.egg-info
+[1.147s] writing ../build/comms_package/comms_package.egg-info/PKG-INFO
+[1.147s] writing dependency_links to ../build/comms_package/comms_package.egg-info/dependency_links.txt
+[1.148s] writing entry points to ../build/comms_package/comms_package.egg-info/entry_points.txt
+[1.148s] writing requirements to ../build/comms_package/comms_package.egg-info/requires.txt
+[1.148s] writing top-level names to ../build/comms_package/comms_package.egg-info/top_level.txt
+[1.148s] writing manifest file '../build/comms_package/comms_package.egg-info/SOURCES.txt'
+[1.151s] reading manifest file '../build/comms_package/comms_package.egg-info/SOURCES.txt'
+[1.152s] writing manifest file '../build/comms_package/comms_package.egg-info/SOURCES.txt'
+[1.152s] running build
+[1.153s] running build_py
+[1.153s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build
+[1.153s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build/lib
+[1.153s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build/lib/comms_package
+[1.154s] copying comms_package/__init__.py -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build/lib/comms_package
+[1.154s] running install
+[1.154s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.154s]   warnings.warn(
+[1.155s] running install_lib
+[1.156s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages/comms_package
+[1.156s] copying /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build/lib/comms_package/__init__.py -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages/comms_package
+[1.157s] byte-compiling /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages/comms_package/__init__.py to __init__.cpython-310.pyc
+[1.158s] running install_data
+[1.159s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/share/ament_index
+[1.159s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/share/ament_index/resource_index
+[1.159s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/share/ament_index/resource_index/packages
+[1.159s] copying resource/comms_package -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/share/ament_index/resource_index/packages
+[1.160s] copying package.xml -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/share/comms_package
+[1.160s] running install_egg_info
+[1.162s] Copying ../build/comms_package/comms_package.egg-info to /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages/comms_package-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.188s] writing list of installed files to '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/install.log'
+[1.218s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/comms_package' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/install/comms_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/comms_package build --build-base /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/build install --record /home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/build/comms_package/install.log --single-version-externally-managed

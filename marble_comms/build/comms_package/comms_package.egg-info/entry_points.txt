@@ -1,0 +1,3 @@
+[console_scripts]
+comms_node = comms_package.comms_node:main
+
