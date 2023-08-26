@@ -5,7 +5,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from sensor_msgs.msg import NavSatFix
 
-R = 6378  # Radius of the earth in metres
+R = 6378e3  # Radius of the earth in metres
 
 
 class CommsNode(Node):
@@ -24,10 +24,6 @@ class CommsNode(Node):
         self.next_latitude = 0
         self.next_longitude = 0
         self.next_altitude = 0
-        self.self_x_coord = 0
-        self.self_y_coord = 0
-        self.next_x_coord = 0
-        self.next_y_coord = 0
 
     def gnss_callback(self, msg):
         caller_id = msg.header.frame_id
@@ -38,9 +34,6 @@ class CommsNode(Node):
             self.longitude = msg.longitude
             self.altitude = msg.altitude
 
-            self.self_x_coord = np.sin(msg.longitude) * R
-            self.self_y_coord = np.sin(msg.latitude) * R
-
             self.get_logger().info('My coordinattes: %f, %f, %f, %s' %
                                    (msg.latitude, msg.longitude, msg.altitude, caller_id))
             # self.get_logger().info('My coordinattes: %f, %f, %s' %
@@ -50,15 +43,12 @@ class CommsNode(Node):
             self.next_longitude = msg.longitude
             self.next_altitude = msg.altitude
 
-            self.next_x_coord = np.sin(msg.longitude) * R
-            self.next_y_coord = np.sin(msg.latitude) * R
-
             self.get_logger().info('Next floater coordinattes: %f, %f, %f, %s' %
                                    (msg.latitude, msg.longitude, msg.altitude, caller_id))
             # self.get_logger().info('My coordinattes: %f, %f, %s' %
             #                        (self.next_x_coord, self.next_y_coord, caller_id))
         self.get_logger().info("Distance between floaters: %f" % (2 * R * np.arcsin(np.sqrt(np.sin((self.next_latitude-self.latitude)/2)
-                                                                                            ** 2+np.cos(self.latitude)*np.cos(self.next_latitude)*np.sin((self.next_longitude-self.longitude)/2)**2))))
+                                                                                            ** 2+np.cos(self.latitude)*np.cos(self.next_latitude)*np.sin((self.next_longitude-self.longitude)/2)**2))))  # Haversine formula for distance between two points on a sphere
 
     def timer_callback(self):
         # Replace with your actual string array
