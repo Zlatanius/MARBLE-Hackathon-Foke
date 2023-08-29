@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating marble_pkg.egg-info
+writing marble_pkg.egg-info/PKG-INFO
+writing dependency_links to marble_pkg.egg-info/dependency_links.txt
+writing entry points to marble_pkg.egg-info/entry_points.txt
+writing requirements to marble_pkg.egg-info/requires.txt
+writing top-level names to marble_pkg.egg-info/top_level.txt
+writing manifest file 'marble_pkg.egg-info/SOURCES.txt'
+reading manifest file 'marble_pkg.egg-info/SOURCES.txt'
+writing manifest file 'marble_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/lib/python3.10/site-packages/marble-pkg.egg-link (link to .)
+Installing gnss_conversion script to /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/lib/marble_pkg
+Installing inference script to /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/lib/marble_pkg
+Installing tracking script to /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/lib/marble_pkg
+
+Installed /home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/marble_pkg
+running install_data
+creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/ament_index
+creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/ament_index/resource_index
+creating /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/ament_index/resource_index/packages
+copying resource/marble_pkg -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/marble_pkg
+copying launch/_launch.py -> /home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg/share/marble_pkg

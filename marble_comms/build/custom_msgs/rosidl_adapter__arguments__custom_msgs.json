@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/custom_msgs:msg/CountWithFloaterInfo.msg",
+    "/home/strongy/MARBLE-Hackathon-Foke/marble_comms/src/custom_msgs:msg/LocationWithFloaterInfo.msg"
+  ]
+}

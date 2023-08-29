@@ -1,0 +1,5 @@
+[console_scripts]
+gnss_conversion = marble_pkg.gnss_with_floater_info:main
+inference = marble_pkg.inference_node:main
+tracking = marble_pkg.tracking_node:main
+
