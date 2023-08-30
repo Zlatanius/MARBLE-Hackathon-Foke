@@ -1,2 +1,0 @@
-string floater_info
-uint16 larvae_count

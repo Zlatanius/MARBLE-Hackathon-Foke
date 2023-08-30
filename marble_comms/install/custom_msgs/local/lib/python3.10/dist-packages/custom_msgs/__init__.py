@@ -1,1 +1,0 @@
-/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/custom_msgs/rosidl_generator_py/custom_msgs/__init__.py

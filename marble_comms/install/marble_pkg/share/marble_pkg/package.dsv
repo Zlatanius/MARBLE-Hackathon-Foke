@@ -1,9 +1,0 @@
-source;share/marble_pkg/hook/pythonpath.ps1
-source;share/marble_pkg/hook/pythonpath.dsv
-source;share/marble_pkg/hook/pythonpath.sh
-source;share/marble_pkg/hook/ament_prefix_path.ps1
-source;share/marble_pkg/hook/ament_prefix_path.dsv
-source;share/marble_pkg/hook/ament_prefix_path.sh
-source;../../build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.ps1
-source;../../build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.dsv
-source;../../build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.sh

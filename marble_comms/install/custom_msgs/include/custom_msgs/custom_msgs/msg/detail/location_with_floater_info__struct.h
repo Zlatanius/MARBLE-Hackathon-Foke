@@ -1,1 +1,0 @@
-/home/strongy/MARBLE-Hackathon-Foke/marble_comms/build/custom_msgs/rosidl_generator_c/custom_msgs/msg/detail/location_with_floater_info__struct.h
