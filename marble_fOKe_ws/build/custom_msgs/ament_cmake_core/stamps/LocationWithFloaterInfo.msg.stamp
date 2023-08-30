@@ -1,0 +1,4 @@
+string floater_info
+float32 latitude
+float32 longitude
+float32 altitude

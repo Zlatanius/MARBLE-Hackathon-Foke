@@ -1,0 +1,5 @@
+uint16 floater_id
+uint32 concentration
+float64 latitude
+float64 longitude
+float64 altitude
