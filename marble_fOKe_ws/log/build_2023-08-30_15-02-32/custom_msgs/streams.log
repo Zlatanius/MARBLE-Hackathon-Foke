@@ -1,0 +1,150 @@
+[0.060s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --build /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs -- -j8 -l8
+[0.169s] [  2%] Built target custom_msgs__cpp
+[0.172s] [ 12%] Built target custom_msgs__rosidl_generator_c
+[0.220s] [ 12%] Built target ament_cmake_python_symlink_custom_msgs
+[0.259s] [ 38%] Built target custom_msgs__rosidl_typesupport_introspection_c
+[0.263s] [ 51%] Built target custom_msgs__rosidl_typesupport_cpp
+[0.264s] [ 57%] Built target custom_msgs__rosidl_typesupport_fastrtps_cpp
+[0.270s] [ 59%] Built target custom_msgs__rosidl_typesupport_introspection_cpp
+[0.274s] [ 72%] Built target custom_msgs__rosidl_typesupport_fastrtps_c
+[0.275s] [ 76%] Built target custom_msgs__rosidl_typesupport_c
+[0.320s] [ 76%] Built target custom_msgs
+[0.370s] [ 78%] Built target custom_msgs__py
+[0.418s] [ 87%] Built target custom_msgs__rosidl_generator_py
+[0.468s] [ 91%] Built target custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.471s] [ 95%] Built target custom_msgs__rosidl_typesupport_c__pyext
+[0.472s] [100%] Built target custom_msgs__rosidl_typesupport_introspection_c__pyext
+[1.489s] running egg_info
+[1.490s] writing custom_msgs.egg-info/PKG-INFO
+[1.491s] writing dependency_links to custom_msgs.egg-info/dependency_links.txt
+[1.491s] writing top-level names to custom_msgs.egg-info/top_level.txt
+[1.506s] reading manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.508s] writing manifest file 'custom_msgs.egg-info/SOURCES.txt'
+[1.648s] [100%] Built target ament_cmake_python_build_custom_msgs_egg
+[1.677s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --build /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs -- -j8 -l8
+[2.170s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --install /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs
+[2.200s] -- Install configuration: ""
+[2.201s] -- Execute custom install script
+[2.201s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/ament_index/resource_index/rosidl_interfaces/custom_msgs
+[2.202s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/comms_message.h
+[2.203s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/count_with_floater_info.h
+[2.203s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__functions.h
+[2.203s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__struct.h
+[2.222s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__type_support.h
+[2.285s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__functions.h
+[2.286s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__struct.h
+[2.287s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__type_support.h
+[2.287s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__functions.h
+[2.287s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__struct.h
+[2.288s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__type_support.h
+[2.288s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/location_with_floater_info.h
+[2.288s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.288s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/library_path.sh
+[2.289s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/library_path.dsv
+[2.289s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__rosidl_typesupport_fastrtps_c.h
+[2.289s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__rosidl_typesupport_fastrtps_c.h
+[2.289s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__rosidl_typesupport_fastrtps_c.h
+[2.290s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.290s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/comms_message.hpp
+[2.290s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/count_with_floater_info.hpp
+[2.291s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__builder.hpp
+[2.291s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__struct.hpp
+[2.291s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__traits.hpp
+[2.292s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__builder.hpp
+[2.292s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__struct.hpp
+[2.292s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__traits.hpp
+[2.292s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__builder.hpp
+[2.293s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__struct.hpp
+[2.293s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__traits.hpp
+[2.293s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/location_with_floater_info.hpp
+[2.294s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__rosidl_typesupport_fastrtps_cpp.hpp
+[2.294s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.294s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__rosidl_typesupport_fastrtps_cpp.hpp
+[2.295s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.295s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__rosidl_typesupport_introspection_c.h
+[2.295s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__rosidl_typesupport_introspection_c.h
+[2.296s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__rosidl_typesupport_introspection_c.h
+[2.296s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.296s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/comms_message__rosidl_typesupport_introspection_cpp.hpp
+[2.296s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/count_with_floater_info__rosidl_typesupport_introspection_cpp.hpp
+[2.297s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/include/custom_msgs/custom_msgs/msg/detail/location_with_floater_info__rosidl_typesupport_introspection_cpp.hpp
+[2.297s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.sh
+[2.297s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/pythonpath.dsv
+[2.298s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.298s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.308s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.308s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.310s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/__init__.py
+[2.310s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_c.c
+[2.311s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.311s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.311s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.312s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.312s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.312s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/libcustom_msgs__rosidl_generator_py.so
+[2.313s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/__init__.py
+[2.323s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_comms_message.py
+[2.324s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_comms_message_s.c
+[2.324s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_count_with_floater_info.py
+[2.325s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_count_with_floater_info_s.c
+[2.325s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_location_with_floater_info.py
+[2.325s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg/_location_with_floater_info_s.c
+[2.326s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.327s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.328s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.328s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/CountWithFloaterInfo.idl
+[2.328s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/LocationWithFloaterInfo.idl
+[2.345s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/CommsMessage.idl
+[2.346s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/CountWithFloaterInfo.msg
+[2.346s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/LocationWithFloaterInfo.msg
+[2.346s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/msg/CommsMessage.msg
+[2.347s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/ament_index/resource_index/package_run_dependencies/custom_msgs
+[2.347s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/ament_index/resource_index/parent_prefix_path/custom_msgs
+[2.347s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.sh
+[2.347s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/ament_prefix_path.dsv
+[2.348s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/path.sh
+[2.348s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/environment/path.dsv
+[2.351s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/local_setup.bash
+[2.351s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/local_setup.sh
+[2.351s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/local_setup.zsh
+[2.351s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/local_setup.dsv
+[2.359s] -- Symlinking: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.dsv
+[2.382s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/ament_index/resource_index/packages/custom_msgs
+[2.383s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake-extras.cmake
+[2.383s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.383s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.384s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.384s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.385s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.385s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.395s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[2.395s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[2.396s] -- Up-to-date symlink: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.xml
+[2.396s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_c.so
+[2.396s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_c.so
+[2.396s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.396s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_c.so
+[2.396s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_c.so
+[2.397s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_introspection_cpp.so
+[2.403s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_typesupport_cpp.so
+[2.601s] Listing '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs'...
+[2.601s] Listing '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages/custom_msgs/msg'...
+[2.619s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/libcustom_msgs__rosidl_generator_py.so
+[2.620s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport.cmake
+[2.620s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.621s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.621s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.629s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_cppExport.cmake
+[2.631s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.634s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.635s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.635s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.636s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport.cmake
+[2.645s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.646s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.648s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.649s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport.cmake
+[2.650s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.650s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport.cmake
+[2.651s] -- Up-to-date: /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/cmake/export_custom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.651s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --install /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs

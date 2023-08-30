@@ -12,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*launch.py'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,11 +23,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        	'talker = surfacing_script.publisher_member_function:main',
-        	'surfacing_controller = surfacing_script.surfacing_controller:main',
-        	'geofloater = surfacing_script.geocaller:main',
-        	'localization = surfacing_script.deadreckon:main',
-        	"univerzalni_node = surfacing_script.univerzalni_node:main",
+                'talker = surfacing_script.publisher_member_function:main',
+                'surfacing_controller = surfacing_script.surfacing_controller:main',
+                'geofloater = surfacing_script.geocaller:main',
+                'localization = surfacing_script.deadreckon:main',
+                "univerzalni_node = surfacing_script.univerzalni_node:main",
         ],
     },
 )

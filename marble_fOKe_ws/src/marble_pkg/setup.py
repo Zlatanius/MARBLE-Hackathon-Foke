@@ -22,10 +22,10 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-    'console_scripts': [
-        'inference = marble_pkg.inference_node:main',
-        'tracking = marble_pkg.tracking_node:main',
-        'gnss_conversion = marble_pkg.gnss_with_floater_info:main'
+        'console_scripts': [
+            'inference = marble_pkg.inference_node:main',
+            'tracking = marble_pkg.tracking_node:main',
+            'gnss_conversion = marble_pkg.gnss_with_floater_info:main'
         ]
     },
 )

@@ -1,0 +1,10 @@
+running develop
+running egg_info
+writing comm_pkg.egg-info/PKG-INFO
+writing dependency_links to comm_pkg.egg-info/dependency_links.txt
+writing entry points to comm_pkg.egg-info/entry_points.txt
+writing requirements to comm_pkg.egg-info/requires.txt
+writing top-level names to comm_pkg.egg-info/top_level.txt
+reading manifest file 'comm_pkg.egg-info/SOURCES.txt'
+writing manifest file 'comm_pkg.egg-info/SOURCES.txt'
+interrupted
