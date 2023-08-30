@@ -1,0 +1,6 @@
+msg/CommsMessage.idl
+msg/CommsMessage.msg
+msg/CountWithFloaterInfo.idl
+msg/CountWithFloaterInfo.msg
+msg/LocationWithFloaterInfo.idl
+msg/LocationWithFloaterInfo.msg

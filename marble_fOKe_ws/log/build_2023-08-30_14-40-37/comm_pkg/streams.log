@@ -1,0 +1,24 @@
+[1.966s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg': AMENT_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/build --no-deps install_data
+[2.472s] running develop
+[2.792s] running egg_info
+[2.792s] creating comm_pkg.egg-info
+[2.792s] writing comm_pkg.egg-info/PKG-INFO
+[2.793s] writing dependency_links to comm_pkg.egg-info/dependency_links.txt
+[2.793s] writing entry points to comm_pkg.egg-info/entry_points.txt
+[2.793s] writing requirements to comm_pkg.egg-info/requires.txt
+[2.793s] writing top-level names to comm_pkg.egg-info/top_level.txt
+[2.794s] writing manifest file 'comm_pkg.egg-info/SOURCES.txt'
+[2.796s] reading manifest file 'comm_pkg.egg-info/SOURCES.txt'
+[2.797s] writing manifest file 'comm_pkg.egg-info/SOURCES.txt'
+[2.799s] running build_ext
+[2.799s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages/comm-pkg.egg-link (link to .)
+[2.800s] Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/comm_pkg
+[2.801s] 
+[2.801s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg
+[2.802s] running install_data
+[2.802s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/ament_index
+[2.802s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/ament_index/resource_index
+[2.802s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/ament_index/resource_index/packages
+[2.802s] copying resource/comm_pkg -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/ament_index/resource_index/packages
+[2.802s] copying package.xml -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/comm_pkg
+[2.859s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg' returned '0': AMENT_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/build --no-deps install_data

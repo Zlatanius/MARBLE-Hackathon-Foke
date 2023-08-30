@@ -1,0 +1,281 @@
+[2.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9cea2a3fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9cea2a3a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9cea2a3a30>>)
+[2.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.702s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.702s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extension 'ignore'
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extension 'ignore_ament_install'
+[2.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extensions ['colcon_pkg']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extension 'colcon_pkg'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extensions ['colcon_meta']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extension 'colcon_meta'
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extensions ['ros']
+[2.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/comm_pkg) by extension 'ros'
+[2.742s] DEBUG:colcon.colcon_core.package_identification:Package 'src/comm_pkg' with type 'ros.ament_python' and name 'comm_pkg'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[2.747s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extension 'ignore'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extension 'ignore_ament_install'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extensions ['colcon_pkg']
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extension 'colcon_pkg'
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extensions ['colcon_meta']
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extension 'colcon_meta'
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extensions ['ros']
+[2.749s] Level 1:colcon.colcon_core.package_identification:_identify(src/marble_pkg) by extension 'ros'
+[2.750s] DEBUG:colcon.colcon_core.package_identification:Package 'src/marble_pkg' with type 'ros.ament_python' and name 'marble_pkg'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extensions ['ignore', 'ignore_ament_install']
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extension 'ignore'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extension 'ignore_ament_install'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extensions ['colcon_pkg']
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extension 'colcon_pkg'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extensions ['colcon_meta']
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extension 'colcon_meta'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extensions ['ros']
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/surfacing_script) by extension 'ros'
+[2.752s] DEBUG:colcon.colcon_core.package_identification:Package 'src/surfacing_script' with type 'ros.ament_python' and name 'surfacing_script'
+[2.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.018s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.031s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.031s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.032s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.033s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/custom_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.033s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.033s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/custom_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.033s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/custom_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.046s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install
+[3.051s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[3.063s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.549s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[3.549s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[3.549s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.550s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.550s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs', 'merge_install': False, 'path': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/custom_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.552s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_args' from command line to 'None'
+[3.552s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_target' from command line to 'None'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.553s] Level 5:colcon.colcon_core.verb:set package 'marble_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.553s] DEBUG:colcon.colcon_core.verb:Building package 'marble_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg', 'merge_install': False, 'path': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/marble_pkg', 'symlink_install': True, 'test_result_base': None}
+[3.555s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_args' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_target' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.565s] Level 5:colcon.colcon_core.verb:set package 'comm_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.565s] DEBUG:colcon.colcon_core.verb:Building package 'comm_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg', 'merge_install': False, 'path': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/comm_pkg', 'symlink_install': True, 'test_result_base': None}
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_args' from command line to 'None'
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_target' from command line to 'None'
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_clean_cache' from command line to 'False'
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_clean_first' from command line to 'False'
+[3.568s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'cmake_force_configure' from command line to 'False'
+[3.569s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'ament_cmake_args' from command line to 'None'
+[3.569s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'catkin_cmake_args' from command line to 'None'
+[3.569s] Level 5:colcon.colcon_core.verb:set package 'surfacing_script' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.569s] DEBUG:colcon.colcon_core.verb:Building package 'surfacing_script' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script', 'merge_install': False, 'path': '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/surfacing_script', 'symlink_install': True, 'test_result_base': None}
+[3.570s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.598s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/custom_msgs' with build type 'ament_cmake'
+[3.599s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/custom_msgs'
+[3.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.621s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.651s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/marble_pkg' with build type 'ament_python'
+[3.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('marble_pkg', 'ament_prefix_path')
+[3.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/ament_prefix_path.ps1'
+[3.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/ament_prefix_path.dsv'
+[3.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/ament_prefix_path.sh'
+[3.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --build /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs -- -j8 -l8
+[5.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/marble_pkg'
+[5.472s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --build /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs -- -j8 -l8
+[6.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --install /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs
+[6.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[6.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe/install/comms_package:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/surfacing_script:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/marble_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comm_pkg:/home/strongy/MARBLE-Hackathon-Foke/marble_comms/install/comms_package:/opt/ros/humble /usr/bin/cmake --install /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/custom_msgs
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs' for CMake module files
+[6.581s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs' for CMake config files
+[6.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[6.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[6.588s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib'
+[6.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[6.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[6.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[6.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/bin'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/python3.10/site-packages'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/bin'
+[6.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[6.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[6.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[6.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[6.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[6.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[6.794s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs' for CMake module files
+[6.796s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs' for CMake config files
+[6.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[6.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[6.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[6.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[6.802s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib'
+[6.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[6.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[6.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[6.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[6.806s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/bin'
+[6.806s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[6.807s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib/python3.10/site-packages'
+[6.807s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/bin'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[6.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[6.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[6.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[6.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[6.818s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/comm_pkg' with build type 'ament_python'
+[6.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('comm_pkg', 'ament_prefix_path')
+[6.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/comm_pkg/hook/ament_prefix_path.ps1'
+[6.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/comm_pkg/hook/ament_prefix_path.dsv'
+[6.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/share/comm_pkg/hook/ament_prefix_path.sh'
+[6.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.840s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/surfacing_script' with build type 'ament_python'
+[6.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('surfacing_script', 'ament_prefix_path')
+[6.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/surfacing_script/hook/ament_prefix_path.ps1'
+[6.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/surfacing_script/hook/ament_prefix_path.dsv'
+[6.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/surfacing_script/hook/ament_prefix_path.sh'
+[6.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/build --no-deps install_data
+[8.709s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/comm_pkg'
+[8.712s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.418s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/src/surfacing_script'
+[10.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('marble_pkg', 'pythonpath_develop')
+[10.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.ps1'
+[10.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/build --no-deps install_data
+[10.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.dsv'
+[10.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/share/marble_pkg/hook/pythonpath_develop.sh'
+[10.542s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg' for CMake module files
+[10.544s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg' for CMake config files
+[10.545s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib'
+[10.545s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/bin'
+[10.545s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/pkgconfig/marble_pkg.pc'
+[10.546s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages'
+[10.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('marble_pkg', 'pythonpath')
+[10.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/pythonpath.ps1'
+[10.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/pythonpath.dsv'
+[10.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/hook/pythonpath.sh'
+[10.562s] Level 1:colcon.colcon_core.environment:checking '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/bin'
+[10.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marble_pkg)
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/package.ps1'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/package.dsv'
+[10.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/package.sh'
+[10.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/package.bash'
+[10.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg/package.zsh'
+[10.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/colcon-core/packages/marble_pkg)
+[11.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/build --no-deps install_data
+[11.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data
+[14.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[14.715s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[14.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script' returned '1': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data
+[14.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[14.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.884s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.947s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.261s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/local_setup.ps1'
+[16.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/_local_setup_util_ps1.py'
+[16.277s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/setup.ps1'
+[16.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/local_setup.sh'
+[16.284s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/_local_setup_util_sh.py'
+[16.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/setup.sh'
+[16.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/local_setup.bash'
+[16.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/setup.bash'
+[16.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/local_setup.zsh'
+[16.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/setup.zsh'

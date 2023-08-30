@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing comm_pkg.egg-info/PKG-INFO
+writing dependency_links to comm_pkg.egg-info/dependency_links.txt
+writing entry points to comm_pkg.egg-info/entry_points.txt
+writing requirements to comm_pkg.egg-info/requires.txt
+writing top-level names to comm_pkg.egg-info/top_level.txt
+reading manifest file 'comm_pkg.egg-info/SOURCES.txt'
+writing manifest file 'comm_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages/comm-pkg.egg-link (link to .)
+Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/comm_pkg
+
+Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg
+running install_data

@@ -1,0 +1,28 @@
+[2.008s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script': AMENT_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data
+[2.509s] running develop
+[2.817s] running egg_info
+[2.817s] creating surfacing_script.egg-info
+[2.818s] writing surfacing_script.egg-info/PKG-INFO
+[2.818s] writing dependency_links to surfacing_script.egg-info/dependency_links.txt
+[2.818s] writing entry points to surfacing_script.egg-info/entry_points.txt
+[2.819s] writing requirements to surfacing_script.egg-info/requires.txt
+[2.819s] writing top-level names to surfacing_script.egg-info/top_level.txt
+[2.819s] writing manifest file 'surfacing_script.egg-info/SOURCES.txt'
+[2.821s] reading manifest file 'surfacing_script.egg-info/SOURCES.txt'
+[2.822s] writing manifest file 'surfacing_script.egg-info/SOURCES.txt'
+[2.824s] running build_ext
+[2.824s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages/surfacing-script.egg-link (link to .)
+[2.826s] Installing geofloater script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[2.826s] Installing localization script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[2.826s] Installing surfacing_controller script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[2.827s] Installing talker script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[2.827s] Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[2.828s] 
+[2.828s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script
+[2.828s] running install_data
+[2.829s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/ament_index
+[2.829s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/ament_index/resource_index
+[2.830s] creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/ament_index/resource_index/packages
+[2.830s] copying resource/surfacing_script -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/ament_index/resource_index/packages
+[2.830s] copying package.xml -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/surfacing_script
+[2.888s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script' returned '0': AMENT_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/custom_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data

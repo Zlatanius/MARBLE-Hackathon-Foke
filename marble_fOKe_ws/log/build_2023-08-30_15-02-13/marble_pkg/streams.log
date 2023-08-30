@@ -1,0 +1,20 @@
+[3.222s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/build --no-deps install_data
+[4.846s] running develop
+[6.030s] running egg_info
+[6.031s] writing marble_pkg.egg-info/PKG-INFO
+[6.061s] writing dependency_links to marble_pkg.egg-info/dependency_links.txt
+[6.062s] writing entry points to marble_pkg.egg-info/entry_points.txt
+[6.062s] writing requirements to marble_pkg.egg-info/requires.txt
+[6.062s] writing top-level names to marble_pkg.egg-info/top_level.txt
+[6.066s] reading manifest file 'marble_pkg.egg-info/SOURCES.txt'
+[6.068s] writing manifest file 'marble_pkg.egg-info/SOURCES.txt'
+[6.080s] running build_ext
+[6.081s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages/marble-pkg.egg-link (link to .)
+[6.082s] Installing gnss_conversion script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/marble_pkg
+[6.083s] Installing inference script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/marble_pkg
+[6.083s] Installing tracking script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/marble_pkg
+[6.084s] 
+[6.084s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg
+[6.084s] running install_data
+[6.085s] copying launch/_launch.py -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/share/marble_pkg
+[6.866s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/marble_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/marble_pkg/build --no-deps install_data

@@ -1,0 +1,17 @@
+[1.591s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/build --no-deps install_data
+[2.051s] running develop
+[2.339s] running egg_info
+[2.340s] writing comm_pkg.egg-info/PKG-INFO
+[2.340s] writing dependency_links to comm_pkg.egg-info/dependency_links.txt
+[2.341s] writing entry points to comm_pkg.egg-info/entry_points.txt
+[2.342s] writing requirements to comm_pkg.egg-info/requires.txt
+[2.342s] writing top-level names to comm_pkg.egg-info/top_level.txt
+[2.347s] reading manifest file 'comm_pkg.egg-info/SOURCES.txt'
+[2.349s] writing manifest file 'comm_pkg.egg-info/SOURCES.txt'
+[2.352s] running build_ext
+[2.352s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages/comm-pkg.egg-link (link to .)
+[2.354s] Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/comm_pkg
+[2.355s] 
+[2.355s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg
+[2.355s] running install_data
+[2.410s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/comm_pkg/build --no-deps install_data

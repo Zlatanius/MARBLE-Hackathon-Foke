@@ -1,0 +1,21 @@
+[4.515s] Invoking command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data
+[6.138s] running develop
+[6.736s] running egg_info
+[6.736s] writing surfacing_script.egg-info/PKG-INFO
+[6.736s] writing dependency_links to surfacing_script.egg-info/dependency_links.txt
+[6.737s] writing entry points to surfacing_script.egg-info/entry_points.txt
+[6.737s] writing requirements to surfacing_script.egg-info/requires.txt
+[6.738s] writing top-level names to surfacing_script.egg-info/top_level.txt
+[6.742s] reading manifest file 'surfacing_script.egg-info/SOURCES.txt'
+[6.744s] writing manifest file 'surfacing_script.egg-info/SOURCES.txt'
+[6.747s] running build_ext
+[6.747s] Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages/surfacing-script.egg-link (link to .)
+[6.749s] Installing geofloater script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[6.749s] Installing localization script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[6.750s] Installing surfacing_controller script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[6.750s] Installing talker script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[6.750s] Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+[6.751s] 
+[6.751s] Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script
+[6.751s] running install_data
+[6.816s] Invoked command in '/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script' returned '0': PYTHONPATH=/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/prefix_override:/home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script/build --no-deps install_data

@@ -1,0 +1,7 @@
+[console_scripts]
+geofloater = surfacing_script.geocaller:main
+localization = surfacing_script.deadreckon:main
+surfacing_controller = surfacing_script.surfacing_controller:main
+talker = surfacing_script.publisher_member_function:main
+univerzalni_node = surfacing_script.univerzalni_node:main
+

@@ -1,0 +1,3 @@
+[console_scripts]
+univerzalni_node = comm_pkg.univerzalni_node:main
+

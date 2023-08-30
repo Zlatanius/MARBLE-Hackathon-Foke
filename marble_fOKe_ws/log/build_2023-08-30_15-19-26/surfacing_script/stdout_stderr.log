@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing surfacing_script.egg-info/PKG-INFO
+writing dependency_links to surfacing_script.egg-info/dependency_links.txt
+writing entry points to surfacing_script.egg-info/entry_points.txt
+writing requirements to surfacing_script.egg-info/requires.txt
+writing top-level names to surfacing_script.egg-info/top_level.txt
+reading manifest file 'surfacing_script.egg-info/SOURCES.txt'
+writing manifest file 'surfacing_script.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/python3.10/site-packages/surfacing-script.egg-link (link to .)
+Installing geofloater script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+Installing localization script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+Installing surfacing_controller script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+Installing talker script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+Installing univerzalni_node script to /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/lib/surfacing_script
+
+Installed /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/build/surfacing_script
+running install_data
+copying launch/_launch.py -> /home/strongy/MARBLE-Hackathon-Foke/marble_fOKe_ws/install/surfacing_script/share/surfacing_script
