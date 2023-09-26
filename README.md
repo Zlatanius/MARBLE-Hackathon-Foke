@@ -3,9 +3,9 @@
 This is the solution to the marble hackathon developed by the fOKe team.
 
 # Cloning the code
-Clonning the code should be straight forward. Clone the repo\
+Clonning the code should be straight forward. Clone the repo
 
-><code>git clone git@github.com:Zlatanius/MARBLE-Hackathon-Foke.git</code>\
+><code>git clone git@github.com:Zlatanius/MARBLE-Hackathon-Foke.git</code>
 
 and then run
 
